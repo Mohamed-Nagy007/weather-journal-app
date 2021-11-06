@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="app.js"></script>
+</head>
+<body>
+    <header>Weather Journal App</header>
+<section class="userData">
+    <div class ="holder zip">
+        <label class ="enterZip" for="zip">Enter Zipcode Here</label>
+        <input type="text" id="zip" placeholder="Enter Zip Code Here">
+      </div>
+    <div class ="holder feel">
+        <label class="enterFeelings" for="feelings">How are you Feeling Today?</label>
+        <textarea class= "myInput" id="feelings" placeholder="Enter Your Feelings Here" rows="5" cols="30"></textarea>
+        <button id="generate" type = "submit"> Generate </button>
+      </div>  
+</section>
+
+<section class="weatherData">
+    <div id = "entryHolder">
+        <div id = "date"></div> 
+        <div class ="weatherTemp">
+        <img id="icon" src="">     
+        <div id = "temp"></div>
+        </div>
+       <div id = "city"></div>
+       <div id = "content"></div>
+       
+      </div>
+</section>
+
+<footer>Designed & Developed By Mohamed Nagy © 2021</footer>
+</body>
+</html>
